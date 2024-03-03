@@ -1,10 +1,10 @@
 const container = document.querySelector('#container');
 const btn = document.querySelector('button');
-for (i = 0; i < 128; i++) {
+for (i = 0; i < 64; i++) {
     const gridDiv = document.createElement('div');
     gridDiv.setAttribute("id", 'divs')
     container.appendChild(gridDiv);
-    for (j = 0; j < 128; j++) {
+    for (j = 0; j < 64; j++) {
         const miniDiv = document.createElement('div');
         miniDiv.setAttribute("id", 'miniDiv')
         gridDiv.appendChild(miniDiv);
